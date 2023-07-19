@@ -1,0 +1,172 @@
+/* Add modern CSS styling here */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-fluid {
+    padding-top: 50px;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border-radius: 0;
+  }
+  
+  .btn-primary {
+    border-radius: 0;
+  }
+  /* Anchor (Link) Styling */
+
+a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  
+  a:focus {
+    outline: none;
+  }
+  
+  /*login styling */
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-label {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .btn-google,
+  .btn-facebook {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .btn-google i,
+  .btn-facebook i {
+    margin-right: 10px;
+  }
+  /* verification styling */
+  .verification-message {
+    margin-top: 20px;
+    color: #555;
+  }
+
+  .verification-message a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .verification-message a:hover {
+    text-decoration: underline;
+  }
+
+  /* Mobile Responsive Styling */
+  @media (max-width: 576px) {
+    .container {
+        width:100%;
+      padding: 20px;
+    }
+  }
+
+/* Footer */
+.footer {
+  background-color: #f7f7f7;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #777;
+}
+  

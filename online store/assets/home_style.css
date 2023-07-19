@@ -1,0 +1,319 @@
+/* styles.css */
+
+.navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #aaa;
+  }
+  
+  .form-inline .form-control {
+    width: 250px;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  /* category styling */
+
+.product-categories {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .category {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .category h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .category p {
+    font-size: 14px;
+    color: #777;
+  }
+  /* featured section */
+ /* styles.css */
+
+/* Add some space around the section */
+.featured-products {
+    padding: 50px 0;
+  }
+  
+  /* Style the section title */
+  .section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the product container */
+  .product {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the product image container */
+  .product-img {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the product image */
+  .product-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Add a hover effect to the product image */
+  .product-img:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Style the product title */
+  .product-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the product description */
+  .product-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the add to cart button */
+  .product .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  /* newsletter */
+  .newsletter-signup {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff3366;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff2255;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  
+    .form-control {
+      width: 100%;
+    }
+  }
+  /* testimonials */
+  /* Existing CSS styles */
+
+/* Modern CSS for testimonial section */
+
+/* Testimonial section */
+.testimonial-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .testimonial {
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-text {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  
+  /* contuct us  */
+  /* Existing CSS styles */
+
+/* Modern CSS for contact section */
+
+/* Contact section */
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff3366;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff2255;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 15px;
+    }
+  }
+  
+  
+  
